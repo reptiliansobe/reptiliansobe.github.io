@@ -100,4 +100,15 @@ p {
   #contact {
     background-color: lightblue;
   }
+  
+  h1, h2, h3, p {
+  font-family: Helvetica;
+  font-size: 2rem;
+  text-align: center;
+  color: gray;
+  }
+
+  li {
+    font-size: 1.5rem
+  }
 }
