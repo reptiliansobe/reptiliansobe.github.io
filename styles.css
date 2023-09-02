@@ -32,30 +32,23 @@ a:hover {
 }
 #welcome-section {
   background-color: pink;
-  min-height: 60vw;
-  min-width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  height: 60vw;
+  width: 100%;
+  padding-top: 7rem;
+  
 }
 #projects {
   min-height: 60vw;
-  min-width: 100%;
+  width: 100%;
   background-color: lightblue;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  padding-top: 5rem;
 
 }
 #contact {
   min-height: 60vw;
-  min-width: 100%;
+  width: 100%;
   background-color: lightyellow;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  padding-top: 5rem;
   
 }
 h1, h2, h3, p {
