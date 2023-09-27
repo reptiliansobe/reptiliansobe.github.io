@@ -1,52 +1,191 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>Portfolio</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <link href="styles.css" rel="stylesheet"/>
-  </head>
-  <body>
-    <div class="topbar">
-      <nav id="navbar">
-        <ul>
-          <li><a href="#welcome-section">Welcome</a></li>
-          <li></li>
+
+<head>
+  <title>Bryan Rascon</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="styles.css" rel="stylesheet" />
+  <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <style>
+    body {
+      background-image: url('images/desert.jpg');
+      background-size: cover;
+      background-position: center;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="header">
+    <div class="container">
+      <nav>
+        <ul id="sidemenu">
+          <li><a href="#about">About</a></li>
           <li><a href="#projects">Projects</a></li>
-          <li></li>
           <li><a href="#contact">Contact</a></li>
+          <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+          <div class="icons">
+            <a target="_blank" href="https://github.com/reptiliansobe">
+              <i class="fa-brands fa-github fa-2xl"></i>
+            </a>
+            <a target="_blank" href="https://www.linkedin.com/in/bryan-rascon-b10a8b164/">
+              <i class="fa-brands fa-linkedin fa-2xl"></i>
+            </a>
+            <a target="_blank" href="https://www.freecodecamp.org/reptiliansobe">
+              <i class="fa-brands fa-free-code-camp fa-2xl"></i>
+            </a>
+            <a target="_blank" href="https://codepen.io/reptiliansobe/pens/">
+              <i class="fa-brands fa-codepen fa-2xl"></i>
+            </a>
         </ul>
+        <i class="fa-solid fa-bars" onclick="openmenu()"></i>
       </nav>
     </div>
-  <div id="welcome-section">   
-      <h1>Hello, my name is Bryan Rascon. I am a Las Vegas native SWE specializing in Front-End Development.</h1>
   </div>
-    <div id="projects">
-      <h2>Here are some projects I have created during my journey.</h2>
-      <div id="tiles">
-        <div>
-          <p><a target="_blank" href="https://reptiliansobe.github.io/survey/">A Breakfast Survey.</a></p>
+  </div>
+  <div id="about">
+    <div class="container">
+      <div class="row">
+        <div class="about-column-1">
+          <h2>Hi, I'm</h2>
+          <h1>BRYAN RASCON</h1>
+          <h2>a Frontend Software Engineer</h2>
+          <p>I am a software developer based in Las Vegas, Nevada.
+            I specialize in frontend development utilizing languages
+            and frontend libraries such as React, Javascript, HTML
+            , and CSS. Computers have been a part of my life since
+            my youth, and I'm happy to be able to contribute to the future of
+            software for generations to come. When I am not developing software,
+            I enjoy creating art, staying physically active, and listening
+            to music.</p>
         </div>
-        <div>
-          <p><a target="_blank" href="https://reptiliansobe.github.io/tribute/">Tribute Page.</a></p>
-        </div>
-        <div>
-          <p><a target="_blank" href="https://reptiliansobe.github.io/techDoc/">An HTML Technical Documentation Page.</a></p>
-        </div>
-        <div>
-          <p><a target="_blank" href="https://reptiliansobe.github.io/pizza/">A Pizza Website.</a></p>
+          <div class="about-column-2">
+            <img width="450px" height="600px" src="images/me.jpg" />
+          </div>
+          <div class="about-column-3">
+            <p><i class="fa-regular fa-square-check"></i>React</p>
+            <p><i class="fa-regular fa-square-check"></i>Redux</p>
+            <p><i class="fa-regular fa-square-check"></i>Javascript</p>
+            <p><i class="fa-regular fa-square-check"></i>CSS</p>
+            <p><i class="fa-regular fa-square-check"></i>HTML</p>
+            <p><i class="fa-regular fa-square-check"></i>Bootstrap</p>
+            <p><i class="fa-regular fa-square-check"></i>SASS</p>
+            <p><i class="fa-regular fa-square-check"></i>jQuery</p>
+            <p><i class="fa-regular fa-square-check"></i>d3.js</p>
+            <p><i class="fa-regular fa-square-check"></i>SVG.js</p>
+            <p><i class="fa-regular fa-square-check"></i>JSON</p>
+            <p><i class="fa-regular fa-square-check"></i>AJAX</p>
+            <p><i class="fa-regular fa-square-check"></i>XML</p>
+            <p><i class="fa-regular fa-square-check"></i>Python</p>
+            <p><i class="fa-regular fa-square-check"></i>SQL</p>
+            <p><i class="fa-regular fa-square-check"></i>C++</p>
+            <p><i class="fa-regular fa-square-check"></i>C#</p>
         </div>
       </div>
     </div>
-    <div id="contact">
-      <h3>Below you can view all my links and projects :)</h3>
-    <div id="links">
-      <p><a target="_blank" href="https://github.com/reptiliansobe">github</a></p>
-      <p><a target="_blank" href="https://codepen.io/reptiliansobe/pens/">CodePen</a></p>
-      <p><a target="_blank" href="https://www.freecodecamp.org/reptiliansobe">freeCodeCamp Profile</a></p>
-      <p><a target="_blank" href="https://www.linkedin.com/in/bryan-rascon-b10a8b164/">LinkedIn</a></p>
-      <p>Contact me directly at my email: brascon30@gmail.com :)</p>
+  </div>
+  <div id="projects">
+    <h2>Projects</h2>
+    <div class="icons">
+      <i class="fa-brands fa-react"></i>
+      <i class="fa-brands fa-js"></i>
+      <i class="fa-brands fa-html5"></i>
+      <i class="fa-brands fa-css3-alt"></i>
+    </div>
+    <div id="videos">
+      <div class="caption">
+        <iframe width="460" height="215" src="https://www.youtube-nocookie.com/embed/efIeVNxrvSE?si=SC7CmEW-SOtFXVwW"
+          title="YouTube video player" frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen></iframe>
+        <a target="_blank" href="https://codepen.io/reptiliansobe/full/VwVrqEJ">
+          <p>Live Site</p>
+        </a>
+        <a target="_blank" href="https://codepen.io/reptiliansobe/pen/VwVrqEJ">
+          <p>Source Code</p>
+        </a>
+      </div>
+      <div class="caption">
+        <iframe width="460" height="215" src="https://www.youtube-nocookie.com/embed/EfgAW8dNOvo?si=jXyfJVhCNBG2LvoL"
+          title="YouTube video player" frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen></iframe>
+        <a target="_blank" href="https://codepen.io/reptiliansobe/full/poQyRdy">
+          <p>Live Site</p>
+        </a>
+        <a target="_blank" href="https://codepen.io/reptiliansobe/pen/poQyRdy">
+          <p>Source Code</p>
+        </a>
+      </div>
+      <div class="caption">
+        <iframe width="460" height="215" src="https://www.youtube-nocookie.com/embed/0_esTbjA0IQ?si=PXY7RDP_eHNlcv4Z"
+          title="YouTube video player" frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen></iframe>
+        <a target="_blank" href="https://codepen.io/reptiliansobe/full/abQzVQe">
+          <p>Live Site</p>
+        </a>
+        <a target="_blank" href="https://codepen.io/reptiliansobe/pen/abQzVQe">
+          <p>Source Code</p>
+        </a>
       </div>
     </div>
-  </body>
+    <p id="project-caption">*These projects were built using React.js, Javascript, HTML, and CSS. Follow the links
+      above for all of my projects :D!
+    </p>
+  </div>
+  <div id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="contact-left">
+          <h2 class="sub-title">Contact Me</h2>
+          <p><i class="fa-solid fa-envelope"></i> brascon30@gmail.com</p>
+          <p><i class="fa-solid fa-phone"></i> 7029811634</p>
+          <a href="resume/tech.resume-1.pdf" download class="btn btn2">Download CV</a>
+        </div>
+        <div class="contact-right">
+          <form name="submit-to-google-sheet">
+            <input type="text" name="Name" placeholder="Your Name" required>
+            <input type="email" name="Email" placeholder="Your Email" required>
+            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+            <button type="submit" class="btn btn2">Submit</button>
+          </form>
+          <span id="msg"></span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbyRxA3cT176Qpm54RACHMHfBUYU1cA0CtvvpvAmmNkqCIRDkCIaDQoVexWcoEOMLmta1Q/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+        .then(response => {
+          msg.innerHTML = "Message sent successfully!"
+          setTimeout(function () {
+            msg.innerHTML = ""
+          }, 5000)
+          form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+  <script>
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu() {
+      sidemenu.style.right = "0";
+    }
+
+    function closemenu() {
+      sidemenu.style.right = "-200px";
+    }
+  </script>
+</body>
+
 </html>
